@@ -9,8 +9,17 @@
  */
 public class Bank {
 
-    public String bankName;
-
+ /**
+  * Holds the value of the name of the bank.
+  * <p>
+  *
+  */
+    private String bankName;
+ /**
+  * Constructor called Bank.
+  * <p>
+  *
+  */
     public Bank() {
         bankName = "Illini Bank";
     }
